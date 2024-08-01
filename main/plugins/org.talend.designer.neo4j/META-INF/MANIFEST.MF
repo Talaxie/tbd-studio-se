@@ -1,6 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Neo4j Plug-in
+Bundle-RequiredExecutionEnvironment: JavaSE-17
 Bundle-SymbolicName: org.talend.designer.neo4j;singleton:=true
 Bundle-Version: 8.8.8.qualifier
 Bundle-Vendor: Zenika
