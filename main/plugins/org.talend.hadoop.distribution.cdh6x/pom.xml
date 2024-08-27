@@ -9,8 +9,4 @@
   </parent>
   <artifactId>org.talend.hadoop.distribution.cdh6x</artifactId>
   <packaging>eclipse-plugin</packaging>
-    <build>
-        <sourceDirectory>src</sourceDirectory>
-        <outputDirectory>bin</outputDirectory>
-    </build>
 </project>
