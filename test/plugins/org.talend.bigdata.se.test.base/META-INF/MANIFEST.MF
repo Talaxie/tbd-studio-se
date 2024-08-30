@@ -1,6 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Big Data Test base plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-17
 Bundle-Vendor: .Talend SA.
 Bundle-SymbolicName: org.talend.bigdata.se.test.base
 Bundle-Version: 8.8.8.qualifier
@@ -16,10 +17,7 @@ Bundle-ClassPath: lib/byte-buddy-1.9.3.jar,
  lib/powermock-module-junit4-2.0.0.jar,
  lib/powermock-module-junit4-common-2.0.0.jar,
  lib/powermock-reflect-2.0.0.jar
-Export-Package: org.hamcrest,
- org.hamcrest.core,
- org.hamcrest.internal,
- org.mockito,
+Export-Package: org.mockito,
  org.mockito.codegen,
  org.mockito.configuration,
  org.mockito.creation.instance,
@@ -155,4 +153,6 @@ Export-Package: org.hamcrest,
  org.powermock.tests.utils,
  org.powermock.tests.utils.impl,
  org.powermock.utils
-Require-Bundle: org.junit
+Import-Package: org.hamcrest,
+ org.junit.jupiter.api;version="0.0.0",
+ org.mockito
