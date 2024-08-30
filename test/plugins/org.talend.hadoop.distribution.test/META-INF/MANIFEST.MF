@@ -9,6 +9,7 @@ Fragment-Host: org.talend.hadoop.distribution
 Require-Bundle: org.talend.hadoop.distribution.test.base,
  org.talend.bigdata.se.test.base
 Import-Package: org.apache.commons.io,
+ org.hamcrest,
  org.junit,
  org.mockito
 Automatic-Module-Name: org.talend.hadoop.distribution.test
