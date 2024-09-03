@@ -9,7 +9,6 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
  org.eclipse.gef,
  org.eclipse.ui.views.properties.tabbed,
- org.apache.commons.collections,
  org.apache.commons.lang,
  org.talend.commons.ui,
  org.talend.metadata.managment,
@@ -44,5 +43,6 @@ Export-Package: org.talend.designer.hdfsbrowse,
  org.talend.designer.hdfsbrowse.ui.provider,
  org.talend.designer.hdfsbrowse.util
 Bundle-ClassPath: .
-Import-Package: org.talend.hadoop.distribution.constants.dataproc
+Import-Package: org.apache.commons.collections4,
+ org.talend.hadoop.distribution.constants.dataproc
 Automatic-Module-Name: org.talend.designer.hdfsbrowse
