@@ -1,6 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: %pluginName
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Bundle-Vendor: .Talend SA.
 Bundle-SymbolicName: org.talend.repository.hadoopcluster.configurator
 Bundle-Version: 8.8.8.qualifier

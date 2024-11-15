@@ -1,6 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Hadoop Cluster Configurator Test
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Bundle-SymbolicName: org.talend.repository.hadoopcluster.configurator.test
 Bundle-Version: 8.8.8.qualifier
 Bundle-Vendor: .Talend SA.

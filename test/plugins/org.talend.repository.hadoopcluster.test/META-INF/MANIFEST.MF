@@ -1,6 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Hadoopcluster Repository Test
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Bundle-SymbolicName: org.talend.repository.hadoopcluster.test
 Bundle-Version: 8.8.8.qualifier
 Fragment-Host: org.talend.repository.hadoopcluster
